@@ -45,4 +45,4 @@ WORKDIR /app
 RUN chmod 755 ./start.sh
 
 EXPOSE 80  
-CMD ["./start.sh"]  
+CMD ["./install.sh"]  
